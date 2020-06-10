@@ -14351,6 +14351,26 @@ html {
   text-decoration: underline;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
+.w-96{
+  width:24rem;
+}
+
+.w-112{
+  width:28rem;
+}
+
+.w-128{
+  width:32rem;
+}
+
+.w-144{
+  width:38rem;
+}
+
 @media (min-width: 260px) {
   .container {
     max-width: 260px;
