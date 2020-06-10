@@ -14343,6 +14343,24 @@ video {
   transition-delay: 1000ms;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.hover\:font-underline:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 260px) {
+  .container {
+    max-width: 260px;
+  }
+
+  .xm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
@@ -69298,3 +69316,4 @@ video {
     transition-delay: 1000ms;
   }
 }
+  

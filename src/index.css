@@ -3,3 +3,22 @@
 @tailwind components;
 
 @tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .hover\:font-underline:hover {
+    text-decoration: underline;
+  }
+
+  @media (min-width: 260px) {
+    .container {
+      max-width: 260px;
+    }
+
+    .xm\:hidden {
+      display: none;
+    }
+  }
+  
